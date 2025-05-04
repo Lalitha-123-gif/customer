@@ -96,7 +96,7 @@ class MenuView extends GetView<MenuViewController> {
                 // Then check if product list is empty
                 if (controller.productsList.isEmpty) {
                   return const Center(
-                    child: Text('No products available in this Category'),
+                    child: Text('No products available'),
                   );
                 }
 
